@@ -313,7 +313,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </span>
                 </div>
                 <label for="password" style="margin-left: 12px;">
-                    <i class="bi bi-lock me-2"></i>รหัสผ่าน
+                    <i class="bi bi-lock me-2"></i>
                 </label>
             </div>
             
