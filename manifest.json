@@ -1,0 +1,22 @@
+{
+  "name": "Lambratown Login",
+  "short_name": "Lambratown",
+  "description": "Beautiful PWA login for Lambratown",
+  "start_url": "/login.php",
+  "display": "standalone",
+  "background_color": "#0ea5e9",
+  "theme_color": "#0284c7",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiMwMjg0YzciLz4KPHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4PSI0OCIgeT0iNDgiPgo8cGF0aCBkPSJNNDggMTZDNDMuNTgxNyAxNiA0MCAxOS41ODE3IDQwIDI0QzQwIDI4LjQxODMgNDMuNTgxNyAzMiA0OCAzMkM1Mi40MTgzIDMyIDU2IDI4LjQxODMgNTYgMjRDNTYgMTkuNTgxNyA1Mi40MTgzIDE2IDQ4IDE2WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTQ4IDQwQzM1LjI2ODMgNDAgMjUuNiA0OS42NjgzIDI1LjYgNjIuNFY4MEg3MC40VjYyLjRDNzAuNCA0OS42NjgzIDYwLjczMTcgNDAgNDggNDBaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4KPC9zdmc+",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiMwMjg0YzciLz4KPHN2ZyB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgdmlld0JveD0iMCAwIDI1NiAyNTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeD0iMTI4IiB5PSIxMjgiPgo8cGF0aCBkPSJNMTI4IDQyQzExNS45NDkgNDIgMTA2IDUxLjk0OTEgMTA2IDY0QzEwNiA3Ni4wNTA5IDExNS45NDkgODYgMTI4IDg2QzE0MC4wNTEgODYgMTUwIDc2LjA1MDkgMTUwIDY0QzE1MCA1MS45NDkxIDE0MC4wNTEgNDIgMTI4IDQyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTEyOCAxMDVDOTMuOTA5IDEwNSA2NiAxMzIuOTA5IDY2IDE2NlYyMTBIMTkwVjE2NkMxOTAgMTMyLjkwOSAxNjIuMDkxIDEwNSAxMjggMTA1WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cjwvc3ZnPg==",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
