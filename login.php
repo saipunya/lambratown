@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lambratown - เข้าสู่ระบบ</title>
+    <title>++สหกรณ์การเกษตรลำประทาว จำกัด++</title>
     
     <!-- PWA Meta Tags -->
     <meta name="theme-color" content="#0284c7">
@@ -235,14 +235,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             margin: 0;
         }
         
+        .password-input {
+            padding-right: 45px;
+        }
+        
         .password-toggle {
             cursor: pointer;
-            color: #94a3b8;
             transition: color 0.3s ease;
         }
         
-        .password-toggle:hover {
-            color: var(--primary-blue);
+        .password-toggle:hover .bi {
+            color: var(--primary-blue) !important;
         }
         
         @media (max-width: 480px) {
@@ -306,15 +309,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             
             <div class="form-floating mb-4">
-                <div class="input-group">
-                    <input type="password" class="form-control" id="password" name="password" placeholder="รหัสผ่าน" required>
-                    <span class="input-group-text password-toggle" onclick="togglePassword()">
-                        <i class="bi bi-eye" id="passwordIcon"></i>
-                    </span>
-                </div>
-                <label for="password" style="margin-left: 12px;">
-                    <i class="bi bi-lock me-2"></i>
+                <input type="password" class="form-control password-input" id="password" name="password" placeholder="รหัสผ่าน" required>
+                <label for="password">
+                    <i class="bi bi-lock me-2"></i>รหัสผ่าน
                 </label>
+                <span class="password-toggle position-absolute end-0 top-50 translate-middle-y me-3" onclick="togglePassword()" style="z-index: 5;">
+                    <i class="bi bi-eye text-muted" id="passwordIcon"></i>
+                </span>
             </div>
             
             <button type="submit" class="btn btn-login" id="loginBtn">
@@ -324,9 +325,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
         
         <div class="demo-info">
-            <h6><i class="bi bi-info-circle me-2"></i>ข้อมูลทดสอบ</h6>
-            <p>ชื่อผู้ใช้: <strong>admin</strong></p>
-            <p>รหัสผ่าน: <strong>password</strong></p>
+            <h6><i class="bi bi-info-circle me-2"></i>ข้อมูลการเข้าระบบ</h6>
+            <p>ชื่อผู้ใช้: <strong>คือรหัสสมาชิก</strong></p>
+            <p>รหัสผ่าน: <strong>คือเลขประจำตัวประชาชน 4 ตัวสุดท้าย</strong></p>
         </div>
     </div>
     
